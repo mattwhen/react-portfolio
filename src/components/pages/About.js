@@ -9,13 +9,11 @@ export default function About() {
 				developer. I like to code, eat, and play video games &#127918 .
 			</p>
 			<p>
-				{' '}
 				I currently work in IT any my day-to-day responsibilites include
 				translating technical concepts into something that a non-technical user
-				can understand, and solving many of their technical complications.{' '}
+				can understand, and solving many of their technical complications.
 			</p>
 			<p>
-				{' '}
 				With these current skillsets, I believe it will can assist me in
 				becoming a better developer. I wanted to become a developer due to my
 				passion in solving problems, and creating products for users.
