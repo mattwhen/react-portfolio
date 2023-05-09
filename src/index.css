@@ -20,6 +20,44 @@ code {
     monospace;
 }
 
+.header {
+  text-align: center;
+}
+
+/* img {
+  margin: 2em;
+  justify-content: center;
+  height: 37.5em;
+  width: 30em;
+} */
+
+/* Projects section
+
+.projects-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: var(--secondary-nav);
+  padding: 10px;
+}
+
+.projects-item {
+  padding: 0px;
+}
+
+.projects-item-header {
+  color: var(--white);
+  font-size: 20px;
+  margin-bottom: 25px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#study-guide {
+  width: 400px;
+} */
+
+/* Styling for the React Toggle Button */
 .react-toggle {
   touch-action: pan-x;
 

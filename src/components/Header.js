@@ -1,9 +1,11 @@
-import Navigation from "./Navigation";
 
-export default function Header() {
+
+const Header = () => {
   return (
     <header>
-
+      <h1>Matthew Nguyen</h1>
     </header>
   );
 }
+
+export default Header;

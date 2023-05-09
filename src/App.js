@@ -33,8 +33,10 @@ const handlePageChange = (page) => setCurrentPage(page);
  return(
   <>
   <Header /> 
+  <div>
   <DarkModeToggle />
   <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+  </div>
   {renderPage()}
   </>
  )
