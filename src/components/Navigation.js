@@ -8,7 +8,11 @@ function Navigation({ currentPage, handlePageChange }) {
 		<>
 			<nav className='navbar navbar-expand-lg navbar-dark bg-dark'>
         <div className='navbar-header'>
-				<a className='navbar-brand' href='#about'>
+				<a 
+        className='navbar-brand' 
+        href='#about' 
+        onClick={() => handlePageChange('About')}
+        >
 					Matthew Nguyen
 				</a>
         </div>
