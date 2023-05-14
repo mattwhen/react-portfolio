@@ -77,6 +77,19 @@ code {
   margin-left: 525px;
 }
 
+/* Styling for Resume page */
+.resume-img {
+  width: 500px;
+  height: 600px;
+}
+
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 
 /* Styling for the React Toggle Button */
 .react-toggle {
