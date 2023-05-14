@@ -54,6 +54,19 @@ code {
   padding-top: 100px;
 }
 
+/* Styling for the footer section */
+.footer-content {
+  height: 50px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-text {
+  font-size: 12px;
+}
+
 /* Styling for Contact form */
 .mb-3 {
   padding-right: 375px;
