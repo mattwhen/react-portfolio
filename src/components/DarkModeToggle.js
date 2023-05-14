@@ -1,27 +1,27 @@
-import React, { useState } from "react";
-import Toggle from "react-toggle";
-import { useMediaQuery } from "react-responsive";
+// import React, { useState } from "react";
+// import Toggle from "react-toggle";
+// import { useMediaQuery } from "react-responsive";
 
-const DarkModeToggle = () => {
-  const [isDark, setIsDark] = useState(true);
+// const DarkModeToggle = () => {
+//   const [isDark, setIsDark] = useState(true);
 
-  const systemPrefersDark = useMediaQuery(
-    {
-      query: "(prefers-color-scheme: dark)",
-    },
-    undefined,
-    (isSystemDark) => setIsDark(isSystemDark)
-  );
+//   const systemPrefersDark = useMediaQuery(
+//     {
+//       query: "(prefers-color-scheme: dark)",
+//     },
+//     undefined,
+//     (isSystemDark) => setIsDark(isSystemDark)
+//   );
 
-  return (
+//   return (
     
-    <Toggle
-      checked={isDark}
-      onChange={({ target }) => setIsDark(target.checked)}
-      icons={{ checked: "🌙", unchecked: "🔆" }}
-      aria-label="Dark mode toggle"
-    />
-  );
-};
+//     <Toggle
+//       checked={isDark}
+//       onChange={({ target }) => setIsDark(target.checked)}
+//       icons={{ checked: "🌙", unchecked: "🔆" }}
+//       aria-label="Dark mode toggle"
+//     />
+//   );
+// };
 
-export default DarkModeToggle;
+// export default DarkModeToggle;

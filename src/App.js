@@ -7,7 +7,7 @@ import Navigation from "./components/Navigation";
 import Resume from "./components/pages/Resume"
 import Contact from "./components/pages/Contact";
 import Portfolio from "./components/pages/Portfolio";
-import DarkModeToggle  from "./components/DarkModeToggle";
+// import DarkModeToggle  from "./components/DarkModeToggle";
 
 
 const App = () => {
@@ -34,10 +34,11 @@ const handlePageChange = (page) => setCurrentPage(page);
   <>
   <Header /> 
   <div>
-  <DarkModeToggle />
+  {/* <DarkModeToggle /> */}
   <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
   </div>
   {renderPage()}
+  <Footer />
   </>
  )
 }

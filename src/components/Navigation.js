@@ -6,18 +6,15 @@ import React from 'react';
 function Navigation({ currentPage, handlePageChange }) {
 	return (
 		<>
-			<nav className='navbar navbar-expand-lg navbar-dark bg-dark'>
-        <div className='navbar-header'>
-				<a 
-        className='navbar-brand' 
-        href='#about' 
-        onClick={() => handlePageChange('About')}
-        >
-					Matthew Nguyen
-				</a>
-        </div>
-				<div className='navbar-collapse' id='navbar-link'>
-					<ul className='nav navbar-nav'>
+			<nav className='navbar navbar-expand-lg navbar-dark'>
+					<ul className='nav d-flex'>
+					<a
+						className='navbar-brand '
+						href='#about'
+						onClick={() => handlePageChange('About')}
+					>
+						Matthew Nguyen
+					</a>
 						<li className='nav-item'>
 							<a
 								href='#about'
@@ -67,7 +64,6 @@ function Navigation({ currentPage, handlePageChange }) {
 							</a>
 						</li>
 					</ul>
-				</div>
 			</nav>
 		</>
 	);

@@ -26,8 +26,44 @@ code {
 
 /* Styling for the Navigation bar */
 .navbar {
-  padding: .5rem 1rem
+  padding: .5rem 1rem;
+  background-color: #023e8a;
 }
+
+.nav-link.active:hover {
+  color: gray;
+}
+
+.nav-link:hover {
+  background-color: white;
+  color: #000000;
+}
+
+/* Styling for About section */
+
+.container-content {
+  padding: 30px;
+}
+
+#profile-pic {
+  width: 250px;
+  height: 400px;
+}
+
+.about-section {
+  padding-top: 100px;
+}
+
+/* Styling for Contact form */
+.mb-3 {
+  padding-right: 375px;
+  padding-left: 300px;
+}
+
+#form-button {
+  margin-left: 525px;
+}
+
 
 /* Styling for the React Toggle Button */
 .react-toggle {
