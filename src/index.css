@@ -30,9 +30,11 @@ code {
   background-color: #023e8a;
 }
 
-.nav-link.active:hover {
-  color: gray;
+.nav-link.active {
+  background-color: #2a6f97;
+  color: white;
 }
+
 
 .nav-link:hover {
   background-color: white;
@@ -57,10 +59,7 @@ code {
 /* Styling for the footer section */
 .footer-content {
   height: 50px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+  margin-top: 50px;
 }
 
 .footer-text {
@@ -73,14 +72,24 @@ code {
   padding-left: 300px;
 }
 
-#form-button {
-  margin-left: 525px;
+.button-container {
+  text-align: center;
+}
+
+/* Styling for the Portfolio page */
+.card-group {
+  padding: 30px;
+}
+
+.project-img {
+  height: 300px;
+  width: 500px;
 }
 
 /* Styling for Resume page */
 .resume-img {
   width: 500px;
-  height: 600px;
+  height: 650px;
 }
 
 .resume-container {
