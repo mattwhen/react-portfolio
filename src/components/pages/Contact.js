@@ -2,9 +2,9 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
 function Contact() {
-	const handleBlurChange = (event) => {
-		const userName = 
-	}
+	// const handleBlurChange = (event) => {
+	// 	const userName = 
+	// }
 
 	return (
 		<div className='container-content'>
