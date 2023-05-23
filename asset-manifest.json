@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.464f6308.css",
+    "main.js": "/react-portfolio/static/js/main.e7bf3e4e.js",
+    "static/media/cultureCruncher-live-app.png": "/react-portfolio/static/media/cultureCruncher-live-app.0ded4271ef4bbc85a03d.png",
+    "static/media/thingamabobs-live-screenshot.png": "/react-portfolio/static/media/thingamabobs-live-screenshot.1bc238ea5a80cd888bc0.png",
+    "static/media/Current-Resume1024_1.jpg": "/react-portfolio/static/media/Current-Resume1024_1.1f0258adf7164f4a510a.jpg",
+    "static/media/profilePic.jpeg": "/react-portfolio/static/media/profilePic.7622568096cfe199ad45.jpeg",
+    "static/media/Current-Resume1024_2.jpg": "/react-portfolio/static/media/Current-Resume1024_2.ea94d89af50e9dd18df0.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.464f6308.css.map": "/react-portfolio/static/css/main.464f6308.css.map",
+    "main.e7bf3e4e.js.map": "/react-portfolio/static/js/main.e7bf3e4e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.464f6308.css",
+    "static/js/main.e7bf3e4e.js"
+  ]
+}
