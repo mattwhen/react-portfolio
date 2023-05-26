@@ -1,7 +1,7 @@
 import React from 'react';
 import thingamabobs from '../../utils/thingamabobs-live-screenshot.png';
 import cultureCruncher from '../../utils/cultureCruncher-live-app.png';
-import blurryImg from '../../utils/blurryimg.jpeg';
+import moMart from '../../utils/MOMART-screencapture.png'; 
 import { Card, Button, CardGroup } from 'react-bootstrap';
 
 
@@ -37,14 +37,14 @@ export default function Portfolio() {
         </Card.Body>
       </Card>
       <Card>
-        <Card.Img variant="top" src={blurryImg} />
+        <Card.Img variant="top" src={moMart} />
         <Card.Body>
-          <Card.Title>Project coming soon...</Card.Title>
+          <Card.Title>MoMart</Card.Title>
           <Card.Text>
-           This project is currently in progress! Stay tuned for the finished product!
+           {/* Insert project description */}
           </Card.Text>
-          <Button variant="primary">See Live Application</Button>
-          <Button variant="primary">See Github Repository</Button>
+          <Button href='https://momart.herokuapp.com/' target='_blank' variant="primary">See Live Application</Button>
+          <Button href='https://github.com/romanjamess/MoMart' variant="primary">See Github Repository</Button>
         </Card.Body>
       </Card>
     </CardGroup>
