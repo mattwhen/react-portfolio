@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Matthew Nguyen</h1>
 <h3 align="center">A passionate frontend developer from Houston, TX</h3>
 
-- 🔭 I’m currently working on [My portfolio using React.js and Next.js](www.mattwhen.com)
+- 🔭 I’m currently working on [My portfolio using React.js and Next.js](https://www.mattwhen.com/)
 
 - 🌱 I’m currently learning: More in-depth knowledge of JavaScript utilizing resources such as JavaScript30 by Wes Bos and The Complete JavaScript course 2023 by Jonas Schmedtmann on Udemy. A bit of some React.js, and a little of Next.js for my portfolio 😊
 
