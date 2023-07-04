@@ -87,6 +87,13 @@ code {
 }
 
 /* Styling for Resume page */
+.resume {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+
+}
+
 .resume-img {
   width: 500px;
   height: 650px;
